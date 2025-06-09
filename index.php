@@ -22,44 +22,44 @@
    <link rel="stylesheet" href="assets/css/custom-animation.css">
    <link rel="stylesheet" href="assets/css/main.css">
    <style>
-                     .flag-section {
-                    background: #f8f9fa;
-                }
-                .flag-swiper {
-                    padding: 20px 0;
-                }
-                .flag-item {
-                    padding: 10px;
-                }
-                .flag-item img {
-                    max-width: 200px;
-                    height: auto;
-                    border-radius: 8px;
-                    box-shadow: 0 2px 4px rgba(0,0,0,0.7);
-                    transition: all 0.5s ease;
-                }
-                .flag-item img:hover {
-                    transform: scale(1.05);
-                }
-                .swiper-button-next,
-                .swiper-button-prev {
-                    color: #007bff;
-                    transition: all 0.3s ease;
-                }
-                .swiper-button-next:hover,
-                .swiper-button-prev:hover {
-                    transform: scale(1.1);
-                }
-                .swiper-pagination-bullet {
-                    transition: all 0.3s ease;
-                }
-                .swiper-pagination-bullet-active {
-                    background: #007bff;
-                    transform: scale(1.2);
-                }
-                .swiper-wrapper {
-                    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                }
+        .aec-flag-section {
+            background: #f8f9fa;
+        }
+        .aec-flag-swiper {
+            padding: 20px 0;
+        }
+        .aec-flag-item {
+            padding: 10px;
+        }
+        .aec-flag-item img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.7);
+            transition: all 0.5s ease;
+        }
+        .aec-flag-item img:hover {
+            transform: scale(1.05);
+        }
+        .aec-swiper-button-next,
+        .aec-swiper-button-prev {
+            color: #007bff;
+            transition: all 0.3s ease;
+        }
+        .aec-swiper-button-next:hover,
+        .aec-swiper-button-prev:hover {
+            transform: scale(1.1);
+        }
+        .aec-swiper-pagination-bullet {
+            transition: all 0.3s ease;
+        }
+        .aec-swiper-pagination-bullet-active {
+            background: #007bff;
+            transform: scale(1.2);
+        }
+        .aec-swiper-wrapper {
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
    </style>
 </head>
 
@@ -516,68 +516,68 @@
       </div>
    </div>
 </div>
-<section class="flag-section py-5">
+<section class="aec-flag-section py-5">
                 <div class="container">
                     <h2 class="text-center mb-5">Our Global Presence</h2>
-                    <div class="flag-slider">
+                    <div class="aec-flag-slider">
                         <div class="row">
                             <div class="col-12">
-                                <div class="swiper-container flag-swiper">
+                                <div class="swiper-container aec-flag-swiper">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <div class="flag-item text-center">
+                                            <div class="aec-flag-item text-center">
                                                 <img src="flags/1.jpg" alt="Flag 1" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="flag-item text-center">
+                                            <div class="aec-flag-item text-center">
                                                 <img src="flags/2.jpg" alt="Flag 2" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="flag-item text-center">
+                                            <div class="aec-flag-item text-center">
                                                 <img src="flags/3.jpg" alt="Flag 3" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="flag-item text-center">
+                                            <div class="aec-flag-item text-center">
                                                 <img src="flags/4.jpg" alt="Flag 4" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="flag-item text-center">
+                                            <div class="aec-flag-item text-center">
                                                 <img src="flags/5.jpg" alt="Flag 5" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="flag-item text-center">
+                                            <div class="aec-flag-item text-center">
                                                 <img src="flags/6.jpg" alt="Flag 6" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="flag-item text-center">
+                                            <div class="aec-flag-item text-center">
                                                 <img src="flags/7.jpg" alt="Flag 7" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="flag-item text-center">
+                                            <div class="aec-flag-item text-center">
                                                 <img src="flags/8.jpg" alt="Flag 8" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="flag-item text-center">
+                                            <div class="aec-flag-item text-center">
                                                 <img src="flags/9.jpg" alt="Flag 9" class="img-fluid">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="flag-item text-center">
+                                            <div class="aec-flag-item text-center">
                                                 <img src="flags/10.jpg" alt="Flag 10" class="img-fluid">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-pagination"></div>
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-pagination aec-swiper-pagination"></div>
+                                    <div class="swiper-button-next aec-swiper-button-next"></div>
+                                    <div class="swiper-button-prev aec-swiper-button-prev"></div>
                                 </div>
                             </div>
                         </div>
@@ -666,7 +666,7 @@
 
    <script>
                 document.addEventListener('DOMContentLoaded', function() {
-                    new Swiper('.flag-swiper', {
+                    const aecFlagSwiper = new Swiper('.aec-flag-swiper', {
                         slidesPerView: 1,
                         spaceBetween: 30,
                         loop: true,
@@ -679,13 +679,13 @@
                         effect: 'slide',
                         grabCursor: true,
                         pagination: {
-                            el: '.swiper-pagination',
+                            el: '.aec-swiper-pagination',
                             clickable: true,
                             dynamicBullets: true
                         },
                         navigation: {
-                            nextEl: '.swiper-button-next',
-                            prevEl: '.swiper-button-prev',
+                            nextEl: '.aec-swiper-button-next',
+                            prevEl: '.aec-swiper-button-prev',
                         },
                         breakpoints: {
                             640: {
