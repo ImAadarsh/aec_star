@@ -21,6 +21,46 @@
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/custom-animation.css">
    <link rel="stylesheet" href="assets/css/main.css">
+   <style>
+                     .flag-section {
+                    background: #f8f9fa;
+                }
+                .flag-swiper {
+                    padding: 20px 0;
+                }
+                .flag-item {
+                    padding: 10px;
+                }
+                .flag-item img {
+                    max-width: 200px;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.7);
+                    transition: all 0.5s ease;
+                }
+                .flag-item img:hover {
+                    transform: scale(1.05);
+                }
+                .swiper-button-next,
+                .swiper-button-prev {
+                    color: #007bff;
+                    transition: all 0.3s ease;
+                }
+                .swiper-button-next:hover,
+                .swiper-button-prev:hover {
+                    transform: scale(1.1);
+                }
+                .swiper-pagination-bullet {
+                    transition: all 0.3s ease;
+                }
+                .swiper-pagination-bullet-active {
+                    background: #007bff;
+                    transform: scale(1.2);
+                }
+                .swiper-wrapper {
+                    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                }
+   </style>
 </head>
 
 <body id="body" class="tp-smooth-scroll">
@@ -46,16 +86,16 @@
                               <!-- Hero Slider -->
                               <div class="tp-hero-2-slider ipn_india-slider">
                                  <div  class="tp-hero-2-bg tp-gsap-bg tp-hero-bg-single ipn_india-slide" style="background-color: rgba(0, 0, 0, 0.4);">
-                                    <img style="background-color: rgb(0, 0, 0) !important;" src="assets/img/home-02/hero/1.png" alt="Fashion Slide 1">
+                                    <img style="background-color: rgb(0, 0, 0) !important;" src="assets/img/home-02/hero/1.jpg" alt="Fashion Slide 1">
                                  </div>
                                  <div class="tp-hero-2-bg tp-gsap-bg tp-hero-bg-single ipn_india-slide" style="background-color: rgba(0, 0, 0, 0.4);">
-                                    <img style="background-color: rgb(0, 0, 0) !important;" src="assets/img/home-02/hero/2.png" alt="Fashion Slide 2">
+                                    <img style="background-color: rgb(0, 0, 0) !important;" src="assets/img/home-02/hero/2.jpg" alt="Fashion Slide 2">
                                  </div>
                                  <div class="tp-hero-2-bg tp-gsap-bg tp-hero-bg-single ipn_india-slide" style="background-color: rgba(0, 0, 0, 0.4);">
-                                    <img style="background-color: rgb(0, 0, 0) !important;" src="assets/img/home-02/hero/3.png" alt="Fashion Slide 3">
+                                    <img style="background-color: rgb(0, 0, 0) !important;" src="assets/img/home-02/hero/3.jpg" alt="Fashion Slide 3">
                                  </div>
                                  <div class="tp-hero-2-bg tp-gsap-bg tp-hero-bg-single ipn_india-slide" style="background-color: rgba(0, 0, 0, 0.4);">
-                                    <img style="background-color: rgb(0, 0, 0) !important;" src="assets/img/home-02/hero/4.png" alt="Fashion Slide 4">
+                                    <img style="background-color: rgb(0, 0, 0) !important;" src="assets/img/home-02/hero/4.jpg" alt="Fashion Slide 4">
                                  </div>
                               </div>
                               <div class="tp-hero-2-content-wrap">
@@ -219,15 +259,14 @@
 <!-- service area end -->
 
             <!-- team area start -->
-            <div id="leaders" class="tp-team-4-area pt-120 pb-90">
-            <!-- <div class="tp-service-4-area pt-120 pb-170 fix" data-background="assets/img/home-04/brand/overly.png"> -->
+            <div id="leaders" class="tp-team-4-area pt-80 pb-60">
                <div class="container">
                   <div class="tp-service-4-title-wrap">
                      <div class="row align-items-end">
                         <div class="col-xl-9 col-lg-9 col-md-9">
                            <div class="tp-service-4-title-box tp_fade_bottom">
                               <h4 class="tp-service-4-title">
-                                 Meet are Global Leaders who drive the AEC and its mission
+                                 Meet our Global Leaders who drive the AEC and its mission
                               </h4>
                            </div>
                         </div>
@@ -239,81 +278,58 @@
                      </div>
                   </div>
                </div>
-               <div style="padding: 0px !important;" class="container">
-                  <div class="row">
-                     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+               <div class="container">
+                  <div class="row justify-content-center">
+                     <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
                         <div class="tp-team-4-item text-center tp_fade_bottom">
                            <div class="tp-hover-btn-wrapper fix">
                               <div class="tp-hover-btn-item">
-                                 <img class="w-100" src="assets/img/home-01/team/4.png" alt="">
+                                 <img class="w-100" src="assets/img/home-01/team/4.png" alt="Mr Gaurava Yadav">
                               </div>
                            </div>
                            <div class="tp-team-4-content">
                               <span>Founder & Chairman, AEC</span>
-                              <h4 class="tp-team-4-title-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><a href="void:javascript(0)">Mr Gaurava Yadav</a></h4>
-                              <div class="tp-team-4-social">
-                                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                              </div>
+                              <h5 class="">Mr Gaurava Yadav</h5>
+                             
                            </div>
                         </div>
                      </div>
-                     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+                     <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
                         <div class="tp-team-4-item text-center tp_fade_bottom">
                            <div class="tp-hover-btn-wrapper fix">
                               <div class="tp-hover-btn-item">
-                                 <img class="w-100" src="assets/img/home-01/team/1.png" alt="">
+                                 <img class="w-100" src="assets/img/home-01/team/1.png" alt="Mrs Amrita Burman">
                               </div>
                            </div>
                            <div class="tp-team-4-content">
                               <span>AEC Country Chairperson, India</span>
-                              <h4 class="tp-team-4-title-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><a href="void:javascript(0)">Mrs Amrita Burman</a></h4>
-                              <div class="tp-team-4-social">
-                                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                              </div>
+                              <h5 class="">Mrs Amrita Burman</h5>
                            </div>
                         </div>
                      </div>
-                     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+                     <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
                         <div class="tp-team-4-item text-center tp_fade_bottom">
                            <div class="tp-hover-btn-wrapper fix">
                               <div class="tp-hover-btn-item">
-                                    <img class="w-100" src="assets/img/home-01/team/2.png" alt="">
+                                    <img class="w-100" src="assets/img/home-01/team/2.png" alt="Dr Maneesh Mangal">
                               </div>
                            </div>
                            <div class="tp-team-4-content">
                               <span>AEC Country Chairperson, Qatar</span>
-                              <h4 class="tp-team-4-title-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><a href="void:javascript(0)">Dr Maneesh Mangal</a></h4>
-                              <div class="tp-team-4-social">
-                                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                              </div>
+                              <h5 class="">Dr Maneesh Mangal</h5>
                            </div>
                         </div>
                      </div>
-                     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+                     <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
                         <div class="tp-team-4-item text-center tp_fade_bottom">
                            <div class="tp-hover-btn-wrapper fix">
                               <div class="tp-hover-btn-item">
-                                 <img class="w-100" src="assets/img/home-01/team/3.png" alt="">
+                                 <img class="w-100" src="assets/img/home-01/team/3.png" alt="Mr Chandrayan Pradhan Shrestha">
                               </div>
                            </div>
                            <div class="tp-team-4-content">
                               <span>AEC Country Chairperson, Nepal</span>
-                              <h4 class="tp-team-4-title-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><a href="void:javascript(0)">Mr Chandrayan Pradhan Shrestha</a></h4>
-                              <div class="tp-team-4-social">
-                                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                              </div>
+                              <h5 class="">Mr Chandrayan Pradhan Shrestha</h5>
                            </div>
                         </div>
                      </div>
@@ -371,58 +387,58 @@
                               <div class="swiper-wrapper tp-gallery-titming">
                                  <div class="swiper-slide">
                                     <div class="tp-gallery-item">
-                                       <img src="assets/img/home-03/gallery/1.png" alt="">
+                                       <img src="assets/img/home-03/gallery/1.jpg" alt="">
                                     </div>
                                  </div>
                                  <div class="swiper-slide">
                                     <div class="tp-gallery-item">
-                                       <img src="assets/img/home-03/gallery/2.png" alt="">
+                                       <img src="assets/img/home-03/gallery/2.jpg" alt="">
                                     </div>
                                  </div>
                                  <div class="swiper-slide">
                                     <div class="tp-gallery-item">
-                                       <img src="assets/img/home-03/gallery/4.png" alt="">
+                                       <img src="assets/img/home-03/gallery/4.jpg" alt="">
                                     </div>
                                  </div>
                                  
                                  <div class="swiper-slide">
                                     <div class="tp-gallery-item">
-                                       <img src="assets/img/home-03/gallery/5.png" alt="">
+                                       <img src="assets/img/home-03/gallery/5.jpg" alt="">
                                     </div>
                                  </div>
                                  <div class="swiper-slide">
                                     <div class="tp-gallery-item">
-                                       <img src="assets/img/home-03/gallery/6.png" alt="">
+                                       <img src="assets/img/home-03/gallery/6.jpg" alt="">
                                     </div>
                                  </div>
                                  <div class="swiper-slide">
                                     <div class="tp-gallery-item">
-                                       <img src="assets/img/home-03/gallery/7.png" alt="">
+                                       <img src="assets/img/home-03/gallery/7.jpg" alt="">
                                     </div>
                                  </div>
                                  <div class="swiper-slide">
                                     <div class="tp-gallery-item">
-                                       <img src="assets/img/home-03/gallery/3.png" alt="">
+                                       <img src="assets/img/home-03/gallery/3.jpg" alt="">
                                     </div>
                                  </div>
                                  <div class="swiper-slide">
                                     <div class="tp-gallery-item">
-                                       <img src="assets/img/home-03/gallery/8.png" alt="">
+                                       <img src="assets/img/home-03/gallery/8.jpg" alt="">
                                     </div>
                                  </div>
                                  <div class="swiper-slide">
                                     <div class="tp-gallery-item">
-                                       <img src="assets/img/home-03/gallery/9.png" alt="">
+                                       <img src="assets/img/home-03/gallery/9.jpg" alt="">
                                     </div>
                                  </div>
                                  <div class="swiper-slide">
                                     <div class="tp-gallery-item">
-                                       <img src="assets/img/home-03/gallery/10.png" alt="">
+                                       <img src="assets/img/home-03/gallery/10.jpg" alt="">
                                     </div>
                                  </div>
                                  <div class="swiper-slide">
                                     <div class="tp-gallery-item">
-                                       <img src="assets/img/home-03/gallery/11.png" alt="">
+                                       <img src="assets/img/home-03/gallery/11.jpg" alt="">
                                     </div>
                                  </div>
                                 
@@ -500,6 +516,74 @@
       </div>
    </div>
 </div>
+<section class="flag-section py-5">
+                <div class="container">
+                    <h2 class="text-center mb-5">Our Global Presence</h2>
+                    <div class="flag-slider">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="swiper-container flag-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="flag-item text-center">
+                                                <img src="flags/1.jpg" alt="Flag 1" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flag-item text-center">
+                                                <img src="flags/2.jpg" alt="Flag 2" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flag-item text-center">
+                                                <img src="flags/3.jpg" alt="Flag 3" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flag-item text-center">
+                                                <img src="flags/4.jpg" alt="Flag 4" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flag-item text-center">
+                                                <img src="flags/5.jpg" alt="Flag 5" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flag-item text-center">
+                                                <img src="flags/6.jpg" alt="Flag 6" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flag-item text-center">
+                                                <img src="flags/7.jpg" alt="Flag 7" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flag-item text-center">
+                                                <img src="flags/8.jpg" alt="Flag 8" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flag-item text-center">
+                                                <img src="flags/9.jpg" alt="Flag 9" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="flag-item text-center">
+                                                <img src="flags/10.jpg" alt="Flag 10" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 <!-- impact area end -->
 <div class="tp-team-4-area pt-120 pb-90" data-background="assets/img/home-04/brand/overly.png"> </div>
 
@@ -567,76 +651,63 @@
 
 
             <!-- instagram text area start -->
-            <div class="tp-instagram-area tp-instagram-ptb text-center">
-               <div class="tp-instagram-thumb-wrap p-relative">
-                  <div class="tp-instagram-thumb-inner-1 d-none d-xl-block">
-                     <img src="assets/img/home-02/instagram/singapore.png" alt="">
-                  </div>
-                  <div class="tp-instagram-thumb-inner-2 d-none d-xl-block">
-                     <img src="assets/img/home-02/instagram/uae.png" alt="">
-                  </div>
-                  <div class="tp-instagram-thumb-inner-3 d-none d-xl-block">
-                     <img src="assets/img/home-02/instagram/nepal.png" alt="">
-                  </div>
-                  <div class="tp-instagram-thumb-inner-4 d-none d-xl-block">
-                     <img src="assets/img/home-02/instagram/srikanka.png" alt="">
-                  </div>
-                  <div class="tp-instagram-thumb-inner-5 d-none d-xl-block">
-                     <img src="assets/img/home-02/instagram/indonesia.png" alt="">
-                  </div>
-                  <div class="tp-instagram-thumb-inner-6 d-none d-xl-block">
-                     <img src="assets/img/home-02/instagram/malayisa.png" alt="">
-                  </div>
-                  <div class="tp-instagram-thumb-inner-7 d-none d-xl-block">
-                     <img src="assets/img/home-02/instagram/qatar.png" alt="">
-                  </div>
-                  <div class="tp-instagram-thumb-inner-8 d-none d-xl-block">
-                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                  </div>
-                  <div class="tp-instagram-thumb">
-                     <img src="assets/img/home-02/instagram/india.png" alt="">
-                  </div>
-                  <div class="tp-instagram-content-wrap text-start">
-                     <div class="tp-instagram-title-box">
-                        <span class="tp-instagram-subtitle">Asian Education Coalition</span>
-                        <h4 class="tp-instagram-title">@Asia</h4>
-                     </div>
-                     <div class="tp-instagram-content">
-                        <p>Become a part of our Asian Coalition! <br> Join the Mission.</p>
-                        <a class="tp-btn-white background-black" href="#">
-                           Follow Us
-                           <span>
-                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M12 0C12 3.0432 9.53292 5.5102 6.48975 5.5102C6.48975 2.46701 8.95677 0 12 0Z"
-                                    fill="currentcolor" />
-                                 <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M0.0231934 0.0231209C3.06639 0.0231209 5.5334 2.49015 5.5334 5.53333C2.4902 5.53333 0.0231934 3.0663 0.0231934 0.0231209Z"
-                                    fill="currentcolor" />
-                                 <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M6.48975 6.4898C9.53294 6.4898 12 8.95682 12 12C8.95675 12 6.48975 9.53297 6.48975 6.4898Z"
-                                    fill="currentcolor" />
-                                 <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M5.5102 6.48981C5.5102 9.533 3.04318 12 0 12C0 8.95681 2.46703 6.48981 5.5102 6.48981Z"
-                                    fill="currentcolor" />
-                              </svg>
-                           </span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
+                       <!-- Flag Slider Section -->
+
+
+            
             <!-- instagram text area end -->
 
          </main>
 
-   <?php include 'include/footer_index.php'; ?>
+   <?php include 'include/footer.php'; ?>
       </div>
    </div>
 
 
-
+   <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    new Swiper('.flag-swiper', {
+                        slidesPerView: 1,
+                        spaceBetween: 30,
+                        loop: true,
+                        speed: 1000,
+                        autoplay: {
+                            delay: 3000,
+                            disableOnInteraction: false,
+                            pauseOnMouseEnter: true
+                        },
+                        effect: 'slide',
+                        grabCursor: true,
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                            dynamicBullets: true
+                        },
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        breakpoints: {
+                            640: {
+                                slidesPerView: 3,
+                            },
+                            768: {
+                                slidesPerView: 4,
+                            },
+                            1024: {
+                                slidesPerView: 5,
+                            },
+                        },
+                        on: {
+                            init: function() {
+                                this.slides.forEach((slide) => {
+                                    slide.style.transition = 'transform 0.5s ease';
+                                });
+                            }
+                        }
+                    });
+                });
+            </script>
    <!-- JS here -->
    <script src="assets/js/vendor/jquery.js"></script>
    <script src="assets/js/bootstrap-bundle.js"></script>

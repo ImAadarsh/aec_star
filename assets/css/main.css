@@ -174,9 +174,9 @@ li,
   */
   --tp-common-white: #F5F7F5;
   --tp-common-white-solid: #fff;
-  --tp-common-black: #1E1E1E;
-  --tp-common-black-2: #1E1E1E;
-  --tp-common-black-3: #141414;
+  --tp-common-black: #00214c;
+  --tp-common-black-2: #002c64;
+  --tp-common-black-3: #001c41;
   --tp-common-dark: #121212;
   --tp-common-orange: #EB5939;
   --tp-grey-1: #262626;
@@ -2712,7 +2712,7 @@ div.demo img {
 /*  2.5 Preloader
 /*----------------------------------------*/
 .preloader-wrap {
-  background-color: #000000;
+  background-color: #001e45;
   height: 100%;
   width: 100%;
   position: fixed;

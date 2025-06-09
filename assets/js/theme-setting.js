@@ -6,7 +6,7 @@ function tp_settings_append($x){
     var settings_html = `<div class="tp-theme-settings-area transition-3">
     <div class="tp-theme-wrapper">
        <div class="tp-theme-header text-center">
-          <h4 class="tp-theme-header-title">Liko Mode Settings</h4>
+          <h4 class="tp-theme-header-title">Mode Settings</h4>
        </div>
 
        <!--  MODE SETTINGS -->
