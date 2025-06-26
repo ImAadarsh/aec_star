@@ -280,59 +280,120 @@
                </div>
                <div class="container">
                   <div class="row justify-content-center">
+
                      <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
                         <div class="tp-team-4-item text-center tp_fade_bottom">
                            <div class="tp-hover-btn-wrapper fix">
                               <div class="tp-hover-btn-item">
-                                 <img class="w-100" src="assets/img/home-01/team/4.png" alt="Mr Gaurava Yadav">
+                                 <img class="w-100" src="leaders/Mrs. Amrita Burman.png" alt="Mr Gaurava Yadav">
                               </div>
                            </div>
                            <div class="tp-team-4-content">
-                              <span>Founder & Chairman, AEC</span>
-                              <h5 class="">Mr Gaurava Yadav</h5>
+                              <span>Chairman AEC – India</span>
+                              <h5 class="">Mrs. Amrita Burman</h5>
                              
                            </div>
                         </div>
                      </div>
+
                      <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
                         <div class="tp-team-4-item text-center tp_fade_bottom">
                            <div class="tp-hover-btn-wrapper fix">
                               <div class="tp-hover-btn-item">
-                                 <img class="w-100" src="assets/img/home-01/team/1.png" alt="Mrs Amrita Burman">
+                                 <img class="w-100" src="leaders/Dr. Neha Sharma.png" alt="Mrs Amrita Burman">
                               </div>
                            </div>
                            <div class="tp-team-4-content">
-                              <span>AEC Country Chairperson, India</span>
-                              <h5 class="">Mrs Amrita Burman</h5>
+                              <span>Vice Chairperson AEC - India</span>
+                              <h5 class="">Dr. Neha Sharma</h5>
                            </div>
                         </div>
                      </div>
+
                      <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
                         <div class="tp-team-4-item text-center tp_fade_bottom">
                            <div class="tp-hover-btn-wrapper fix">
                               <div class="tp-hover-btn-item">
-                                    <img class="w-100" src="assets/img/home-01/team/2.png" alt="Dr Maneesh Mangal">
+                                    <img class="w-100" src="leaders/mr. John Bagul.png" alt="Dr Maneesh Mangal">
                               </div>
                            </div>
                            <div class="tp-team-4-content">
-                              <span>AEC Country Chairperson, Qatar</span>
-                              <h5 class="">Dr Maneesh Mangal</h5>
+                              <span>Secretary, AEC - India</span>
+                              <h5 class="">Mr. John Bagul</h5>
                            </div>
                         </div>
                      </div>
+
                      <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
                         <div class="tp-team-4-item text-center tp_fade_bottom">
                            <div class="tp-hover-btn-wrapper fix">
                               <div class="tp-hover-btn-item">
-                                 <img class="w-100" src="assets/img/home-01/team/3.png" alt="Mr Chandrayan Pradhan Shrestha">
+                                 <img class="w-100" src="leaders/Mr. Chandrayan Pradhan.png" alt="Mr Chandrayan Pradhan Shrestha">
                               </div>
                            </div>
                            <div class="tp-team-4-content">
-                              <span>AEC Country Chairperson, Nepal</span>
-                              <h5 class="">Mr Chandrayan Pradhan Shrestha</h5>
+                              <span>Chairman AEC – Nepal</span>
+                              <h5 class="">Mr. Chandrayan Pradhan</h5>
                            </div>
                         </div>
                      </div>
+
+                     <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+                        <div class="tp-team-4-item text-center tp_fade_bottom">
+                           <div class="tp-hover-btn-wrapper fix">
+                              <div class="tp-hover-btn-item">
+                                 <img class="w-100" src="leaders/Ms. Rashmi Sharma Mainali.png" alt="Mr Chandrayan Pradhan Shrestha">
+                              </div>
+                           </div>
+                           <div class="tp-team-4-content">
+                              <span>Vice Chairperson AEC – Nepal</span>
+                              <h5 class="">Ms. Rashmi Sharma Mainali</h5>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+                        <div class="tp-team-4-item text-center tp_fade_bottom">
+                           <div class="tp-hover-btn-wrapper fix">
+                              <div class="tp-hover-btn-item">
+                                 <img class="w-100" src="leaders/Mr. Sonu Kumar.png" alt="Mr Chandrayan Pradhan Shrestha">
+                              </div>
+                           </div>
+                           <div class="tp-team-4-content">
+                              <span>Secretary AEC – Nepal</span>
+                              <h5 class="">Mr. Sonu Kumar</h5>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+                        <div class="tp-team-4-item text-center tp_fade_bottom">
+                           <div class="tp-hover-btn-wrapper fix">
+                              <div class="tp-hover-btn-item">
+                                 <img class="w-100" src="leaders/Ms. Neeti Tripathi.png" alt="Mr Chandrayan Pradhan Shrestha">
+                              </div>
+                           </div>
+                           <div class="tp-team-4-content">
+                              <span>Chairperson AEC – Bangladesh</span>
+                              <h5 class="">Ms. Neeti Tripathi </h5>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+                        <div class="tp-team-4-item text-center tp_fade_bottom">
+                           <div class="tp-hover-btn-wrapper fix">
+                              <div class="tp-hover-btn-item">
+                                 <img class="w-100" src="leaders/Dr. Maneesh Mangal.png" alt="Mr Chandrayan Pradhan Shrestha">
+                              </div>
+                           </div>
+                           <div class="tp-team-4-content">
+                              <span>Chairman AEC – Qatar</span>
+                              <h5 class="">Dr. Maneesh Mangal</h5>
+                           </div>
+                        </div>
+                     </div>
+
                   </div>
                </div>
             </div>
